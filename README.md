@@ -1,11 +1,11 @@
 # project2_page_object_pattern
 
-# plan of this repository 
+## plan of this repository 
 
-* src/test/java/**common**
- - Utils (set up chromedriver and generate random email for registration page)
- - HomePage (home page of hotel)
- - BookRoom (book a room depends of room name)
+1. src/test/java/**common**
+ * Utils (set up chromedriver and generate random email for registration page)
+ * HomePage (home page of hotel)
+ * BookRoom (book a room depends of room name)
 
 * src/test/java/**webpages**
 - Login (log in a registered user)
