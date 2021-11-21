@@ -4,10 +4,9 @@ import common.HomePage;
 import common.Utils;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
-import webdrivers.Login;
-import webdrivers.NewAddress;
+import webpages.Login;
+import webpages.NewAddress;
 
 public class NewAddressTest {
     private WebDriver driver;

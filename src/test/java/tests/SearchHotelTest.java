@@ -7,8 +7,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import webdrivers.Login;
-import webdrivers.SearchHotel;
+import webpages.Login;
+import webpages.SearchHotel;
 
 public class SearchHotelTest {
     private WebDriver driver;

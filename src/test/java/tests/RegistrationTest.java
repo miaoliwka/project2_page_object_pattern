@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import webdrivers.Registration;
+import webpages.Registration;
 
 public class RegistrationTest {
     private WebDriver driver;
