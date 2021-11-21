@@ -2,7 +2,7 @@
 
 # plan of this repository 
 
-* src/test/java/"**"common"**"
+* src/test/java/"**common**"
  - Utils (set up chromedriver and generate random email for registration page)
  - HomePage (home page of hotel)
  - BookRoom (book a room depends of room name)
