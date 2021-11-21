@@ -7,6 +7,7 @@
  * Utils (set up chromedriver and generate random email for registration page)
  * HomePage (home page of hotel)
  * BookRoom (book a room depends of room name)
+ 
 
 2. src/test/java/**webpages**
 
@@ -14,6 +15,7 @@
 * NewAddress (add a new home address) 
 * Registration (register a new user with generate randon emails' function)
 * SearchHotel (search a hotel, book a room and go to the payment process)
+
 
 3. src/test/java/**tests**
 
