@@ -12,7 +12,7 @@
 2. src/test/java/**webpages**
 * Login (log in a registered user)
 * NewAddress (add a new home address) 
-* Registration (register a new user with generate randon emails' function)
+* Registration (register a new user with generate random emails' function)
 * SearchHotel (search a hotel, book a room and go to the payment process)
 
 ----------------------------------
