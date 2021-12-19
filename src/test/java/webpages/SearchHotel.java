@@ -26,10 +26,10 @@ public class SearchHotel {
     @FindBy(xpath = "//button[@id='search_room_submit']")
     private WebElement searchNowButton;
 
-    @FindBy(xpath = "//a[@rm_product_id='8']")
+    @FindBy(xpath = "//a[@data-id-product-attribute='0']")
     private WebElement bookNowButton;
 
-    @FindBy(xpath = "//a[@title='Proceed to checkout']")
+    @FindBy(xpath = "//a[@class='btn btn-default button button-medium']")
     private WebElement proceedToCheckoutButton;
 
     @FindBy(xpath = "//input[@class='payment_type' and @value='1']")

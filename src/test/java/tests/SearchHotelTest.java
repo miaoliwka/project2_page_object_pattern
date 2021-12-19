@@ -30,7 +30,7 @@ public class SearchHotelTest {
         String hotelLocation = "Warsaw";
         String checkIn = "22-12-2021";  //date format DD-MM-YYYY
         String checkOut = "02-01-2022"; //date format DD-MM-YYYY
-        String roomName = "General Rooms"; //roomName: General Rooms, Delux Rooms, Executive Rooms, luxury Rooms
+        String roomName = "luxury Rooms"; //roomName: General Rooms, Delux Rooms, Executive Rooms, luxury Rooms
         String roomQuantity = "2";
 
         SearchHotel searchHotel = new SearchHotel(driver);

@@ -8,8 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 public class NewAddress {
     private WebDriver driver;
 
-    @FindBy(xpath = "//a[@title='Add my first address']")
+    @FindBy(xpath = "//a[@title='Addresses']")
     private WebElement addFirstAddressButton;
+
+    @FindBy(xpath = "//a[@title='Add an address']")
+    private WebElement addAnewAddress;
 
     @FindBy(xpath = "//input[@id='address1']")
     private WebElement addressInput;
@@ -39,12 +42,13 @@ public class NewAddress {
 
     public void addANewAddress(){
         addFirstAddressButton.click();
+        addAnewAddress.click();
         addressInput.sendKeys("Nyska 55");
         postcode.sendKeys("50-516"); //format: 00-000
         cityInput.sendKeys("Wroclaw");
         mobilePhoneInput.sendKeys("385726507");
         addressTitle.clear();
-        addressTitle.sendKeys("My home address");
+        addressTitle.sendKeys("My new address");
         saveButton.click();
     }
 }
